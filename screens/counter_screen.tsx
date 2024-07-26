@@ -11,7 +11,7 @@ export default function CounterScreen(){
                 The value of count is : {count}
             </Text>
             </View>
-            <View style={{flexDirection:'row' , alignSelf : 'center' , margin : 32 }}>
+            <View style={{flexDirection:'row' , alignSelf : 'center' }}>
             <TouchableOpacity onPress={()=>setCount(count+1)} style={styles.counterButton}>
                 <Text style={styles.counterButtonLabel}>Increment</Text>
             </TouchableOpacity>
